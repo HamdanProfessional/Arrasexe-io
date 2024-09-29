@@ -11,9 +11,9 @@
     <meta property="og:image:height" content="54">
     <title>Open Source Arras</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
-    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/main.css" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="manifest" href="/lib/json/manifest.json">
+    <link rel="manifest" href="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/json/manifest.json">
     <meta name="msapplication-TileColor" content="#8abc3f">
     <meta name="theme-color" content="#8abc3f">
 </head>
@@ -227,16 +227,16 @@
     </div>
     <!-- JS -->
     <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script type="module" src="./lib/settings.js"></script>
-    <script type="module" src="./lib/color.js"></script>
-    <script type="module" src="./lib/global.js"></script>
-    <script type="module" src="./lib/config.js"></script>
-    <script type="module" src="./lib/util.js"></script>
-    <script type="module" src="./lib/canvas.js"></script>
-    <script type="module" src="./lib/gameDraw.js"></script>
-    <script type="module" src="./lib/protocol.js"></script>
-    <script type="module" src="./lib/socketInit.js"></script>
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/settings.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/color.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/global.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/config.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/util.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/canvas.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/gameDraw.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/protocol.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/lib/socketInit.js"></script>
+    <script type="module" src="https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/app.js"></script>
     <script>
         $("#optColors").change(function () {
             if ($(this).val() == "custom") document.getElementById("optCustom").type = "text";
@@ -245,7 +245,7 @@
         $("#startMenuSlidingTrigger").on('click', function () {
             if ($("#optColors").val() == "custom") document.getElementById("optCustom").type = "text";
         });
-        if (navigator.serviceWorker) navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(registration => console.log('Service Worker Registered'));
+        if (navigator.serviceWorker) navigator.serviceWorker.register('https://raw.githubusercontent.com/HamdanProfessional/Arrasexe-io/refs/heads/main/public/service-worker.js', { scope: '/' }).then(registration => console.log('Service Worker Registered'));
     </script>
 </body>
 
