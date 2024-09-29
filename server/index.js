@@ -1,14 +1,3 @@
-const cors = require('cors');
-const express = require('express');
-const app = express();
-
-// Use CORS middleware
-app.use(cors({
-    origin: 'https://arrasexe-io-production.up.railway.app', // Allow your front-end URL
-    methods: 'GET, POST, PUT, DELETE, OPTIONS',
-    allowedHeaders: 'Content-Type, Authorization'
-}));
-
 const path = require('path');
 const fs = require('fs');
 
