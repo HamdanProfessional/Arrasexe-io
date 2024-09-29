@@ -5,6 +5,7 @@
   "scripts": {
     "startOptimized": "node --optimize-for-size --no-lazy --gc_interval=120 server/index",
     "restartOnSaveOptimized": "node --optimize-for-size --no-lazy --gc_interval=120 --watch server/index",
+    "build-setup": "mkdir -p standaloneClient/build && find . -mindepth 1 -maxdepth 1 ! -name 'standaloneClient' -exec cp -R {} standaloneClient/build \\;",
     "start": "node server/index",
     "restartOnSave": "node --watch server/index",
     "host": "node standaloneClient/index",
